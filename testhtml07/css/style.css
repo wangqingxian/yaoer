@@ -1,0 +1,146 @@
+(node) util.print is deprecated. Use console.log instead.
+/*����ɫ*/
+/*�л�ɫ*/
+/*ǳ��ɫ*/
+/*��ɫ*/
+/*��ɫ��----���ֺ�ɫ*/
+/*����ɫ----���ֻ�ɫ*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+.wrap {
+  width: 100%;
+  height: auto;
+}
+.wrap .banner {
+  width: 100%;
+  height: 600px;
+  color: white;
+  text-align: center;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.wrap .banner .logo {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+.wrap .banner .logo h1 {
+  font-size: 5em;
+}
+.wrap .banner .logo .ban-nav {
+  width: 100%;
+  margin-top: 50px;
+}
+.wrap .banner .logo .ban-nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  width: 12%;
+  margin: 20px 10px;
+  font-size: 20px;
+}
+.wrap .banner .logo .ban-nav ul .active {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  border: solid 2px #ffffff;
+}
+.wrap .main {
+  margin-top: 30px;
+  padding: 30px 0;
+}
+.wrap .main .content span {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.wrap .main .content img {
+  width: 100%;
+  margin: 20px 0;
+}
+.wrap .main .content p {
+  display: inline-block;
+  line-height: 25px;
+}
+.wrap .main .side h3 {
+  margin: 45px 0;
+}
+.wrap .main .side .main-list {
+  padding-bottom: 20px;
+  margin: 10px 0;
+}
+.wrap .main .side .main-list span {
+  display: inline-block;
+  color: #7d807e;
+  margin: 20px 0;
+}
+.wrap .feature {
+  width: 100%;
+  background-color: #f2f2f2 ;
+  padding: 40px 0;
+}
+.wrap .feature h3 {
+  height: 50px ;
+  font-size: 18px;
+}
+.wrap .feature img {
+  width: 100%;
+}
+.wrap .feature p {
+  padding: 40px 0;
+  line-height: 25px;
+}
+.wrap .feature a {
+  width: 160px;
+  height: 52px;
+  line-height: 52px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  background-color: #e95e3d;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}

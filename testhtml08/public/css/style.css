@@ -1,0 +1,506 @@
+(node) util.print is deprecated. Use console.log instead.
+/*
+setting value
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+@media all {
+  body #wrap {
+    width: 100%;
+  }
+  body #wrap .header {
+    width: 100%;
+  }
+  body #wrap .header .navbar {
+    margin-bottom: 0;
+  }
+  body #wrap .header .container-fluid {
+    width: 100%;
+    padding: 0;
+  }
+  body #wrap .header .container-fluid .navbar-header {
+    background-color: black;
+    text-align: center;
+  }
+  body #wrap .header .container-fluid .navbar-header img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  body #wrap .header .container-fluid .nav-main {
+    background-color: #07a7b3;
+  }
+  body #wrap .header .container-fluid .nav-main ul li {
+    background-color: #07a7b3;
+    text-align: center ;
+  }
+  body #wrap .header .container-fluid .nav-main ul li a {
+    color: #ffffff;
+  }
+  body #wrap .banner {
+    width: 100%;
+    margin: 0;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+  }
+  body #wrap .banner .ban-lists h2 {
+    color: #ffffff;
+  }
+  body #wrap .banner .ban-lists h1 {
+    color: #07a7b3;
+  }
+  body #wrap .banner .ban-lists p {
+    color: #ffffff;
+    line-height: 20px ;
+  }
+  body #wrap .banner .ban-lists .read {
+    display: inline-block;
+  }
+  body #wrap .banner .ban-lists .roll-con {
+    margin-top: 50px;
+  }
+  body #wrap .banner .ban-lists .roll-con ul {
+    margin: 0 ;
+    padding: 0;
+  }
+  body #wrap .banner .ban-lists .roll-con ul li {
+    margin: 0 5px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #0dc2d1;
+    border: solid 1px #ffffff;
+  }
+  body #wrap .provide {
+    width: 100%;
+    color: #ffffff;
+  }
+  body #wrap .provide .provide01 {
+    background-color: #02e0f2;
+  }
+  body #wrap .provide .provide02 {
+    background-color: #04cddd;
+  }
+  body #wrap .provide .provide03 {
+    background-color: #07b7c5;
+  }
+  body #wrap .provide .provide04 {
+    background-color: #07a7b3;
+  }
+  body #wrap .welcome {
+    width: 100%;
+  }
+  body #wrap .welcome h2 {
+    color: #ef6387;
+  }
+  body #wrap .welcome h4 {
+    color: #5f5f5f;
+  }
+  body #wrap .welcome p {
+    color: #bcbaba;
+  }
+  body #wrap .welcome a {
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    line-height: 25px;
+    color: #07a7b3;
+    text-align: center;
+    border: 2px #07a7b3 solid;
+  }
+  .join {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eaeaea;
+    text-align: center;
+  }
+  .join h4 {
+    color: #ef6387;
+  }
+  .join p {
+    color: #bcbaba;
+  }
+  .news {
+    width: 100%;
+  }
+  .news h2 {
+    color: #ef6387;
+  }
+  .news p {
+    color: #bcbaba;
+  }
+  .news .event h4,
+  .news .event span {
+    color: #ffffff;
+  }
+  .news .event .eve-con-01,
+  .news .event .eve-con-01 {
+    text-align: center;
+    background-color: #07a7b3;
+    opacity: 0.9;
+  }
+  .top-scoll {
+    position: fixed;
+    right: 0;
+    bottom: 2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-header {
+    width: 100%;
+    float: none;
+    margin: 0 !important;
+    text-align: left;
+    min-height: 70px;
+  }
+  .navbar-header img {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .nav-main ul li {
+    border-top: solid 1px rgba(98, 201, 209, 0.298039);
+    -webkit-background-size: border-box;
+    background-size: border-box;
+  }
+  .banner {
+    min-height: 410px;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner .ban-lists {
+    padding: 13% 0;
+  }
+  .banner .ban-lists h2 {
+    font-size: 2rem;
+  }
+  .banner .ban-lists h1 {
+    font-size: 2.5rem;
+  }
+  .banner .ban-lists p {
+    font-size: 10px;
+    line-height: 15px ;
+  }
+  .banner .ban-lists .read {
+    width: 80px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .provide h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  .provide h5 {
+    font-size: 10px;
+  }
+  .provide p {
+    font-size: 10px;
+  }
+  .provide .provide01 {
+    padding: 1% 1.5%;
+  }
+  .provide .provide02 {
+    padding: 1% 1.5%;
+  }
+  .provide .provide03 {
+    padding: 1% 1.5%;
+  }
+  .provide .provide04 {
+    padding: 1% 1.5%;
+  }
+  .join .join-l {
+    padding: 2% 0;
+  }
+  .join .join-l p {
+    font-size: 10px;
+    margin: 0 auto;
+    width: 60%;
+  }
+  .news .container h2 {
+    font-size: 1.5em;
+  }
+  .news .container h4 {
+    font-size: 1em ;
+  }
+  .news .container p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .news .container .event-top {
+    width: 100%;
+    position: relative;
+  }
+  .news .container .event-top img {
+    width: 100%;
+  }
+  .news .container .event-top .eve-con-01 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  .news .container .event-bot {
+    width: 100%;
+    position: relative;
+  }
+  .news .container .event-bot img {
+    width: 100%;
+  }
+  .news .container .event-bot .eve-con-01 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  body #wrap {
+    width: 100%;
+  }
+  body #wrap .header {
+    width: 100%;
+  }
+  body #wrap .header .navbar {
+    margin-bottom: 0;
+  }
+  body #wrap .header .container-fluid {
+    width: 100%;
+    padding: 0;
+  }
+  body #wrap .header .container-fluid .navbar-header {
+    min-height: 120px;
+    background-color: black;
+    width: 18%;
+    float: left;
+    text-align: center;
+    padding: 1em 0;
+  }
+  body #wrap .header .container-fluid .navbar-header img {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  body #wrap .header .container-fluid .navbar-brand {
+    float: none;
+    line-height: 0;
+    margin: 0;
+  }
+  body #wrap .header .container-fluid .nav-main {
+    min-height: 120px;
+    background-color: #07a7b3;
+    width: 82%;
+    float: right;
+  }
+  body #wrap .header .container-fluid .nav-main ul {
+    width: 100%;
+  }
+  body #wrap .header .container-fluid .nav-main ul li {
+    height: 120px;
+    line-height: 120px;
+    display: inline-block;
+    width: 20%;
+    text-align: center ;
+    border-left: solid 1px rgba(98, 201, 209, 0.298039);
+    -webkit-background-size: border-box;
+    background-size: border-box;
+  }
+  body #wrap .header .container-fluid .nav-main ul li a {
+    display: inline-block;
+    color: #ffffff;
+    width: 80%;
+  }
+  body #wrap .banner {
+    width: 100%;
+    min-height: 680px;
+    margin: 0;
+    background-image: url("../images/banner.jpg");
+    background-position: left;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  body #wrap .banner .ban-lists {
+    margin-top: 10% ;
+    padding: 6% 0;
+  }
+  body #wrap .banner .ban-lists h2 {
+    font-size: 2.5em;
+  }
+  body #wrap .banner .ban-lists h1 {
+    font-size: 36px;
+  }
+  body #wrap .banner .ban-lists p {
+    font-size: 1em;
+    line-height: 25px ;
+  }
+  body #wrap .banner .ban-lists p {
+    margin: 20px 0;
+  }
+  body #wrap .banner .ban-lists .read {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px ;
+    border: 2px solid #ffffff;
+    margin: 20px 0 20px 0;
+  }
+  body #wrap .banner .ban-lists .roll-con {
+    margin-top: 100px;
+  }
+  body #wrap .banner .ban-lists .roll-con ul {
+    margin: 0 ;
+    padding: 0;
+  }
+  body #wrap .banner .ban-lists .roll-con ul li {
+    margin: 0 5px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #0dc2d1;
+    border: solid 1px #ffffff;
+  }
+  body #wrap .provide {
+    min-height: 180px;
+  }
+  body #wrap .provide h2 {
+    margin: 10px 0;
+  }
+  body #wrap .provide h5 {
+    font-size: 1em;
+  }
+  body #wrap .provide p {
+    font-size: 1em;
+  }
+  body #wrap .provide .provide01 {
+    padding: 2%;
+  }
+  body #wrap .provide .provide02 {
+    padding: 2%;
+  }
+  body #wrap .provide .provide03 {
+    padding: 2%;
+  }
+  body #wrap .provide .provide04 {
+    padding: 2%;
+  }
+  body #wrap .welcome .container .wel-con {
+    padding: 6% 2%;
+  }
+  body #wrap .welcome .container .wel-con p {
+    line-height: 22px;
+  }
+  body #wrap .welcome .container .wel-con a {
+    margin-top: 20px;
+  }
+  body #wrap .join .join-l {
+    padding: 8% 0;
+  }
+  body #wrap .join .join-l p {
+    margin: 0 auto;
+    width: 80%;
+  }
+  body #wrap .news .container {
+    padding: 7% 0;
+  }
+  body #wrap .news .container .news-top p {
+    line-height: 23px;
+  }
+  body #wrap .news .container .news-main {
+    padding: 30px 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+  }
+  body #wrap .news .container .news-main .new-left {
+    display: inline-block;
+    width: 38%;
+  }
+  body #wrap .news .container .news-main .new-right {
+    position: absolute;
+    margin: auto;
+    top: 7%;
+    right: 0;
+    left: 38%;
+    bottom: 0;
+    display: inline-block;
+    width: 60%;
+  }
+  body #wrap .news .container .news-main .new-right h4 {
+    margin-left: 20px;
+    line-height: 20px;
+  }
+  body #wrap .news .container .news-main .new-right p {
+    margin: 20px;
+    line-height: 25px;
+    width: 90%;
+  }
+  body #wrap .news .container .news-right h4 {
+    line-height: 20px;
+  }
+  body #wrap .news .container .news-right p {
+    line-height: 25px;
+  }
+  body #wrap .news .container .event-top {
+    width: 90%;
+    position: relative;
+  }
+  body #wrap .news .container .event-top img {
+    width: 100%;
+  }
+  body #wrap .news .container .event-top .eve-con-01 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  body #wrap .news .container .event-bot {
+    width: 90%;
+    position: relative;
+  }
+  body #wrap .news .container .event-bot img {
+    width: 100%;
+  }
+  body #wrap .news .container .event-bot .eve-con-01 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
